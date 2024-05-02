@@ -32,8 +32,11 @@ function Sidebar() {
         </div>
       </div>
       <div className="sb-search">
+        <IconButton>
         <SearchIcon/>
-        <input placeholder="search"/>
+        </IconButton>
+       
+        <input placeholder="search" className="search-box"/>
       </div>
 
       <div className="sb-conversation">conversations</div>
