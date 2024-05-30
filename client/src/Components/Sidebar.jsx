@@ -59,8 +59,8 @@ function Sidebar() {
 
       <div className="sb-conversation">
         {conversation.map((conversation)=>{
-         return <ConversationItem props={conversation}/>
-
+         return( <ConversationItem props={conversation} key={conversation.name}/>
+        )
         })}
       </div>
     </div>
